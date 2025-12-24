@@ -1,4 +1,4 @@
-index.html
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,7 +12,7 @@ index.html
     <button id="jokeButton">Get a new joke</button>
 
     <script>
-      const jokeDiv = document.getElemntById("joke");
+      const jokeDiv = document.getElementById("joke");
       const jokeButton = document.getElementById("jokeButton");
 
       function newJoke() {
