@@ -1,8 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Dad Joke Generator</title>
+    <title>Between Dad and Me</title>
   </head>
   <body>
+    <h1>Dad's Dad Jokes</h1>
+    <div id="joke">
+      Click for a joke!      
+    </div>
+    <button id="jokeButton">Get a new joke</button>
+
+    <script>
+      const jokeDiv = document.getElemntById("joke");
+      const jokeButton = document.getElementById("jokeButton");
+
+      function newJoke() {
+        jokeDiv.textContent = "a new joke!";
+      }
+      jokeButton.onclick = newJoke;
+    </script>
+  
   </body>
 </html>
